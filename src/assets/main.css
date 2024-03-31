@@ -1,4 +1,5 @@
-@import './base.css';
+@import "./base.css";
+@import "https://use.typekit.net/gup3dfs.css";
 
 #app {
   max-width: 1280px;
@@ -7,17 +8,18 @@
   font-weight: normal;
 }
 
-a,
-.green {
-  text-decoration: none;
+a {
+  /* text-decoration: none;
   color: hsla(160, 100%, 37%, 1);
   transition: 0.4s;
-  padding: 3px;
+  padding: 3px; */
+  color: var(--dark-blue);
+  transition: 0.4s;
 }
 
 @media (hover: hover) {
   a:hover {
-    background-color: hsla(160, 100%, 37%, 0.2);
+    color: #5686D2;
   }
 }
 
@@ -26,10 +28,16 @@ a,
     display: flex;
     place-items: center;
   }
+}
 
-  #app {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    padding: 0 2rem;
-  }
+h1 {
+  font-family: var(--font-family-header);
+  font-style: normal;
+  color: var(--dark-blue);
+  font-weight: 100;
+  font-size: 64px;
+}
+
+.italic {
+  font-style: italic;
 }
