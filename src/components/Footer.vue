@@ -48,13 +48,12 @@ import GitHub from './icons/IconGitHub.vue'
 #footer .column {
     display: flex;
     flex-direction: column;
+    gap: 10px;
 }
 .icons {
     display: flex;
     flex-direction: row;
     margin-top: 10px;
-}
-#footer a {
-    padding: 5px;
+    gap: 10px;
 }
 </style>

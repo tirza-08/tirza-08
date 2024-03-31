@@ -34,7 +34,7 @@ nav {
 
 nav a {
   padding: 15px 55px;
-  margin: 10px 20px;
+  margin: 10px 10px;
   text-decoration: none;
   font-weight: bold;
   border-radius: 50px;

@@ -20,5 +20,6 @@ import Star from './icons/IconStar.vue'
     min-height: var(--min-section-height);
     justify-content: center;
     align-items: center;
+    gap: 20px;
   }
 </style>
