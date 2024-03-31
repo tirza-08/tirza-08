@@ -24,7 +24,9 @@
     rgba(244, 240, 237, 1) 45%,
     rgba(244, 240, 237, 1) 100%
   );
+  --max-width: 1100px;
   --section-gap: 160px;
+  --min-section-height: 60vh;
 }
 
 *,

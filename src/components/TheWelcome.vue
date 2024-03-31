@@ -1,17 +1,24 @@
 <script setup>
-import ToolingIcon from './icons/IconTooling.vue'
-import EcosystemIcon from './icons/IconEcosystem.vue'
-import CommunityIcon from './icons/IconCommunity.vue'
-import SupportIcon from './icons/IconSupport.vue'
 import Star from './icons/IconStar.vue'
 </script>
 
 <template>
-  <div>
-    <Star/>
-  </div>
-  <div>
-    <h1>Hi, I'<span class="italic">m Tirza</span></h1>
-    <p>Communication & Multimedia Design student aspiring to become a front-end developer.</p>
-  </div>
+  <section id="welcome">
+    <div>
+      <Star />
+    </div>
+    <div>
+      <h1>Hi, ik be<span class="italic">n Tirza</span></h1>
+      <p>Communication & Multimedia Design student aspiring to become a front-end developer.</p>
+    </div>
+  </section>
 </template>
+
+<style scoped>
+  #welcome {
+    display: flex;
+    min-height: var(--min-section-height);
+    justify-content: center;
+    align-items: center;
+  }
+</style>

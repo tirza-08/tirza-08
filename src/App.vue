@@ -1,18 +1,20 @@
 <script setup>
 import { RouterLink, RouterView } from 'vue-router' 
+import MyFooter from './components/Footer.vue'
 </script>
 
 <template>
   <header>
     <div class="wrapper">
       <nav>
-        <RouterLink to="/">Home</RouterLink>
-        <RouterLink to="/about">About</RouterLink>
-        <RouterLink to="/resume">Resume</RouterLink>
+        <RouterLink class="active" to="/">Home</RouterLink>
+        <RouterLink to="/about">Over mij</RouterLink>
+        <RouterLink to="/resume">CV</RouterLink>
       </nav>
     </div>
   </header>
   <RouterView />
+  <MyFooter />
 </template>
 
 <style scoped>
@@ -31,7 +33,16 @@ nav {
 }
 
 nav a {
-  padding: 20px;
+  padding: 15px 55px;
+  margin: 10px 20px;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 50px;
+}
+
+.active {
+  background-color: var(--orange);
+  color: var(--white);
 }
 
 </style>

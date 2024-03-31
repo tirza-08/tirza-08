@@ -2,10 +2,16 @@
 @import "https://use.typekit.net/gup3dfs.css";
 
 #app {
-  max-width: 1280px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 2rem 0;
+  font-weight: normal;
+}
+
+section {
+  max-width: var(--max-width);
   margin: 0 auto;
   padding: 2rem;
-  font-weight: normal;
 }
 
 a {
@@ -19,7 +25,7 @@ a {
 
 @media (hover: hover) {
   a:hover {
-    color: #5686D2;
+    color: var(--orange);
   }
 }
 
@@ -30,14 +36,31 @@ a {
   }
 }
 
-h1 {
+h1, h2, h3 {
   font-family: var(--font-family-header);
   font-style: normal;
   color: var(--dark-blue);
-  font-weight: 100;
+  font-weight: 700;
+}
+
+h1 {
   font-size: 64px;
+}
+
+h2, h3 {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+h3 {
+  color: var(--white);
+}
+
+h5 {
+  
 }
 
 .italic {
   font-style: italic;
+  font-weight: bolder;
 }
