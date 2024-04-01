@@ -8,6 +8,10 @@
   font-weight: normal;
 }
 
+img {
+  width: 100%;
+}
+
 section {
   max-width: var(--max-width);
   margin: 0 auto;
@@ -57,10 +61,14 @@ h3 {
 }
 
 h5 {
-  
+  font-weight: bolder;
 }
 
 .italic {
   font-style: italic;
+  font-weight: bolder;
+}
+
+b {
   font-weight: bolder;
 }
