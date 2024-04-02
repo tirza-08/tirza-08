@@ -8,6 +8,7 @@ import MyFooter from './components/Footer.vue'
     <div class="wrapper">
       <nav>
         <RouterLink class="active" to="/">Home</RouterLink>
+        <RouterLink to="/projecten">Projecten</RouterLink>
         <RouterLink to="/about">Over mij</RouterLink>
         <RouterLink to="/resume">CV</RouterLink>
       </nav>

@@ -15,7 +15,7 @@ img {
 section {
   max-width: var(--max-width);
   margin: 0 auto;
-  padding: 2rem;
+  padding: 5rem 2rem;
 }
 
 a {

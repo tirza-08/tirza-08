@@ -2,6 +2,7 @@
   {
     "name": "Bed & Breakfast Molenstreek",
     "type": "Redesign",
+    "id": "bb-molenstreek",
     "slug": "/projecten/bb-molenstreek",
     "jaar": 2024,
     "tools": ["Gebruikersonderzoek", "Figma"],
@@ -10,20 +11,20 @@
       "Onderzoek doen naar gebruikers en pijnpunten van een website, en deze vertalen naar ontwerpvoorwaarden",
       "Design onderbouwen op basis van gebruikersonderzoek"
     ],
-    "hoofdfoto": "../../public/images/bb-molenstreek/main.png",
+    "hoofdfoto": "../../images/bb-molenstreek/main.png",
     "procesfotos": [
-      "../../public/images/bb-molenstreek/process1.png",
-      "../../images/bb-molenstreek/process2.png"
+      "../../images/bb-molenstreek/process1.png"
     ],
     "resultaatfotos": [
       "../../images/bb-molenstreek/result1.png",
       "../../images/bb-molenstreek/result2.png",
-      "../../public/images/bb-molenstreek/result3.png"
+      "../../images/bb-molenstreek/result3.png"
     ]
   },
   {
     "name": "Alice in Wonderland",
     "type": "Escape Room",
+    "id": "alice-in-wonderland",
     "slug": "/projecten/alice-in-wonderland",
     "jaar": 2023,
     "tools": ["Makey Makey", "JavaScript", "Houtsnijden"],
@@ -33,21 +34,22 @@
       "Een werkende puzzel creëren met bloempotten en muzieknoten ",
       "De puzzel zoveel mogelijk foolproof maken met de beperkingen van de Makey Makey"
     ],
-    "hoofdfoto": "../../public/images/alice-in-wonderland/main.png",
+    "hoofdfoto": "../../images/alice-in-wonderland/main.png",
     "procesfotos": [
-      "../../public/images/alice-in-wonderland/process1.png",
-      "../../public/images/alice-in-wonderland/process2.png"
+      "../../images/alice-in-wonderland/process1.png",
+      "../../images/alice-in-wonderland/process2.png"
     ],
     "resultaatfotos": [
-      "../../public/images/alice-in-wonderland/result1.png",
-      "../../public/images/alice-in-wonderland/result2.png",
-      "../../public/images/alice-in-wonderland/result3.png",
-      "../../public/images/alice-in-wonderland/result3.png"
+      "../../images/alice-in-wonderland/result1.png",
+      "../../images/alice-in-wonderland/result2.png",
+      "../../images/alice-in-wonderland/result3.png",
+      "../../images/alice-in-wonderland/result3.png"
     ]
   },
   {
     "name": "Groenere Tuinen",
     "type": "Webdesign",
+    "id": "groenere-tuinen",
     "slug": "/projecten/groenere-tuinen",
     "jaar": 2024,
     "tools": ["Figma"],
@@ -56,20 +58,21 @@
       "Kunnen onderbouwen waarom bepaalde keuzes mensen overtuigen ",
       "In kaart brengen van een specifieke doelgroep bij een algemene probleemstelling "
     ],
-    "hoofdfoto": "../../public/images/groenere-tuinen/main.png",
+    "hoofdfoto": "../../images/groenere-tuinen/main.png",
     "procesfotos": [
-      "../../public/images/groenere-tuinen/process1.png",
-      "../../public/images/groenere-tuinen/process2.png"
+      "../../images/groenere-tuinen/process1.png",
+      "../../images/groenere-tuinen/process2.png"
     ],
     "resultaatfotos": [
-      "../../public/images/groenere-tuinen/result1.png",
-      "../../public/images/groenere-tuinen/result2.png",
-      "../../public/images/groenere-tuinen/result3.png"
+      "../../images/groenere-tuinen/result1.png",
+      "../../images/groenere-tuinen/result2.png",
+      "../../images/groenere-tuinen/result3.png"
     ]
   },
   {
     "name": "Solve the Cube",
     "type": "Scrollytelling",
+    "id": "solve-the-cube",
     "slug": "/projecten/solve-the-cube",
     "jaar": 2023,
     "tools": ["HTML", "CSS", "Javascript", "Figma", "Illustrator"],
@@ -79,19 +82,20 @@
       "Een interactieve verhalende ervaring creëren met een website",
       "(2D) Webdesign laten aansluiten bij het design van de kleurrijke Rubik’s Cube"
     ],
-    "hoofdfoto": "../../public/images/solve-the-cube/main.png",
+    "hoofdfoto": "../../images/solve-the-cube/main.png",
     "procesfotos": [
-      "../../public/images/solve-the-cube/process1.png",
-      "../../public/images/solve-the-cube/process2.png"
+      "../../images/solve-the-cube/process1.png",
+      "../../images/solve-the-cube/process2.png"
     ],
     "resultaatfotos": [
-      "../../public/images/solve-the-cube/result1.png",
-      "../../public/images/solve-the-cube/result2.png"
+      "../../images/solve-the-cube/result1.png",
+      "../../images/solve-the-cube/result2.png"
     ]
   },
   {
     "name": "Wereldwinkel",
     "type": "Redesign",
+    "id": "wereldwinkel",
     "slug": "/projecten/wereldwinkel",
     "jaar": 2022,
     "tools": ["Figma", "HTML", "CSS"],
@@ -100,20 +104,21 @@
       "De vormgeving van een website gebruikersvriendelijk maken",
       "Voor het eerst met Figma werken en het design later omzetten in code"
     ],
-    "hoofdfoto": "../../public/images/wereldwinkel/main.png",
+    "hoofdfoto": "../../images/wereldwinkel/main.png",
     "procesfotos": [
-      "../../public/images/wereldwinkel/process1.png",
-      "../../public/images/wereldwinkel/process2.png"
+      "../../images/wereldwinkel/process1.png",
+      "../../images/wereldwinkel/process2.png"
     ],
     "resultaatfotos": [
-      "../../public/images/wereldwinkel/result1.png",
-      "../../public/images/wereldwinkel/result2.png",
-      "../../public/images/wereldwinkel/result3.png"
+      "../../images/wereldwinkel/result1.png",
+      "../../images/wereldwinkel/result2.png",
+      "../../images/wereldwinkel/result3.png"
     ]
   },
   {
     "name": "Penguin's Harbor",
     "type": "2D Gamedesign",
+    "id": "penguins-harbor",
     "slug": "/projecten/penguins-harbor",
     "jaar": 2023,
     "tools": ["Lua", "LÖVE", "Tiled", "Aseprite"],
@@ -122,16 +127,16 @@
       "Een haalbaar doel stellen voor een prototype en gemotiveerd blijven ",
       "De code, assets en het concept lerende wijs samen laten komen"
     ],
-    "hoofdfoto": "../../public/images/penguins-harbor/main.png",
+    "hoofdfoto": "../../images/penguins-harbor/main.png",
     "procesfotos": [
-      "../../public/images/penguins-harbor/process1.png",
-      "../../public/images/penguins-harbor/process2.png"
+      "../../images/penguins-harbor/process1.png",
+      "../../images/penguins-harbor/process2.png"
     ],
     "resultaatfotos": [
-      "../../public/images/penguins-harbor/result1.png",
-      "../../public/images/penguins-harbor/result2.png",
-      "../../public/images/penguins-harbor/result3.png",
-      "../../public/images/penguins-harbor/result4.png"
+      "../../images/penguins-harbor/result1.png",
+      "../../images/penguins-harbor/result2.png",
+      "../../images/penguins-harbor/result3.png",
+      "../../images/penguins-harbor/result4.png"
     ]
   }
 ]
