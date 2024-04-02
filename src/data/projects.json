@@ -1,51 +1,137 @@
 [
-    {
-      "name": "Bed & Breakfast Molenstreek",
-      "type": "Redesign",
-      "slug": "/projecten/bb-molenstreek",
-      "jaar": 2024,
-      "tools": [
-            "Gebruikersonderzoek",
-            "Figma"
-        ],
-      "beschrijving": "Tijdens mijn studie wordt er veel aandacht besteed aan de gebruikers, en het testen van prototypes bij de doelgroep. Zo heb ik ook geleerd over gebruikersonderzoek. Voor de opdracht heb ik met iemand anders gebruikersonderzoek afgelegd (zoals observaties & taakscenario’s) en op basis hiervan zelf een herontwerp gemaakt die effectiever & efficiënter is.",
-      "uitdagingen": [
-            "Onderzoek doen naar gebruikers en pijnpunten van een website.",
-            "Design onderbouwen op basis van gebruikersonderzoek."
-        ],
-      "hoofdfoto": "../../public/images/bb-molenstreek/main.png",
-      "procesfotos": [
-        "../../public/images/bb-molenstreek/process1.png",
-        "../../images/bb-molenstreek/process2.png"
-        ],
-      "resultaatfotos": [
-        "../../images/bb-molenstreek/result1.png",
-        "../../images/bb-molenstreek/result2.png",
-        "../../public/images/bb-molenstreek/result3.png"
-        ]
-    },
-    {
-      "name": "Bed & Breakfast Molenstreek",
-      "type": "Redesign",
-      "slug": "/projecten/TESTING",
-      "jaar": 2024,
-      "tools": [
-            "Gebruikersonderzoek",
-            "Figma"
-        ],
-      "beschrijving": "Tijdens mijn studie wordt er veel aandacht besteed aan de gebruikers, en het testen van prototypes bij de doelgroep. Zo heb ik ook geleerd over gebruikersonderzoek. Voor de opdracht heb ik met iemand anders gebruikersonderzoek afgelegd (zoals observaties & taakscenario’s) en op basis hiervan zelf een herontwerp gemaakt die effectiever & efficiënter is.",
-      "uitdagingen": [
-            "Onderzoek doen naar gebruikers en pijnpunten van een website.",
-            "Design onderbouwen op basis van gebruikersonderzoek."
-        ],
-      "hoofdfoto": "../../public/images/bb-molenstreek/main.png",
-      "procesfotos": [
-        "../../public/images/bb-molenstreek/process1.png"
-        ],
-      "resultaatfotos": [
-        "../../public/images/bb-molenstreek/result1.png",
-        "../../public/images/bb-molenstreek/result2.png",
-        "../../public/images/bb-molenstreek/result3.png"
-        ]
-    }
+  {
+    "name": "Bed & Breakfast Molenstreek",
+    "type": "Redesign",
+    "slug": "/projecten/bb-molenstreek",
+    "jaar": 2024,
+    "tools": ["Gebruikersonderzoek", "Figma"],
+    "beschrijving": "Met behulp van gebruikersonderzoek op de bestaande website van B&B Molenstreek heb ik de website een effectiever en efficiënter herontwerp gegeven. Voor de opdracht heb ik amen met iemand anders taakscenario’s en observaties gedaan bij de doelgroep, om hierna zelf een herdesign te maken.",
+    "uitdagingen": [
+      "Onderzoek doen naar gebruikers en pijnpunten van een website, en deze vertalen naar ontwerpvoorwaarden",
+      "Design onderbouwen op basis van gebruikersonderzoek"
+    ],
+    "hoofdfoto": "../../public/images/bb-molenstreek/main.png",
+    "procesfotos": [
+      "../../public/images/bb-molenstreek/process1.png",
+      "../../images/bb-molenstreek/process2.png"
+    ],
+    "resultaatfotos": [
+      "../../images/bb-molenstreek/result1.png",
+      "../../images/bb-molenstreek/result2.png",
+      "../../public/images/bb-molenstreek/result3.png"
+    ]
+  },
+  {
+    "name": "Alice in Wonderland",
+    "type": "Escape Room",
+    "slug": "/projecten/alice-in-wonderland",
+    "jaar": 2023,
+    "tools": ["Makey Makey", "JavaScript", "Houtsnijden"],
+    "beschrijving": "Voor het vak Interactieve Installaties heb ik samen met een klasgenoot een puzzel van onze eigen bedachte escape room uitgewerkt. Dit was in het thema van Alice in Wonderland. Het idee van de puzzel is als volgt: na het horen van een melodie (op een radio), zet je de bloemen op de volgorde van de melodie. ",
+    "uitdagingen": [
+      "Het concept rondom een installatie bedenken en visualiseren ",
+      "Een werkende puzzel creëren met bloempotten en muzieknoten ",
+      "De puzzel zoveel mogelijk foolproof maken met de beperkingen van de Makey Makey"
+    ],
+    "hoofdfoto": "../../public/images/alice-in-wonderland/main.png",
+    "procesfotos": [
+      "../../public/images/alice-in-wonderland/process1.png",
+      "../../public/images/alice-in-wonderland/process2.png"
+    ],
+    "resultaatfotos": [
+      "../../public/images/alice-in-wonderland/result1.png",
+      "../../public/images/alice-in-wonderland/result2.png",
+      "../../public/images/alice-in-wonderland/result3.png",
+      "../../public/images/alice-in-wonderland/result3.png"
+    ]
+  },
+  {
+    "name": "Groenere Tuinen",
+    "type": "Webdesign",
+    "slug": "/projecten/groenere-tuinen",
+    "jaar": 2024,
+    "tools": ["Figma"],
+    "beschrijving": "Wanneer je door je woonwijk loopt, zie je vaak genoeg tuinen bedekt met grijze tegels en kunstgras in plaats van een stukje natuur. De vraag naar duurzaamheid blijft groeien, maar hoe kunnen we mensen overtuigen hieraan mee te werken? Voor het vak Ontwerpen voor Gedragsbeïnvloeding heb ik gekozen om een concept uit te werken wat de biodiversiteit van tuinen zou kunnen verbeteren.",
+    "uitdagingen": [
+      "Kunnen onderbouwen waarom bepaalde keuzes mensen overtuigen ",
+      "In kaart brengen van een specifieke doelgroep bij een algemene probleemstelling "
+    ],
+    "hoofdfoto": "../../public/images/groenere-tuinen/main.png",
+    "procesfotos": [
+      "../../public/images/groenere-tuinen/process1.png",
+      "../../public/images/groenere-tuinen/process2.png"
+    ],
+    "resultaatfotos": [
+      "../../public/images/groenere-tuinen/result1.png",
+      "../../public/images/groenere-tuinen/result2.png",
+      "../../public/images/groenere-tuinen/result3.png"
+    ]
+  },
+  {
+    "name": "Solve the Cube",
+    "type": "Scrollytelling",
+    "slug": "/projecten/solve-the-cube",
+    "jaar": 2023,
+    "tools": ["HTML", "CSS", "Javascript", "Figma", "Illustrator"],
+    "beschrijving": "“Solve the Cube” is een verhaal dat je volgt door te scrollen en hierdoor een interactieve ervaring geeft. Mijn idee was om de Rubik’s Cube opgelost te laten worden naar mate je meer over de puzzel leert. Ik heb hiervoor mijn eigen illustraties en code gebruikt.",
+    "uitdagingen": [
+      "HTML/CSS veranderen op basis van scrollen",
+      "Een interactieve verhalende ervaring creëren met een website",
+      "(2D) Webdesign laten aansluiten bij het design van de kleurrijke Rubik’s Cube"
+    ],
+    "hoofdfoto": "../../public/images/solve-the-cube/main.png",
+    "procesfotos": [
+      "../../public/images/solve-the-cube/process1.png",
+      "../../public/images/solve-the-cube/process2.png"
+    ],
+    "resultaatfotos": [
+      "../../public/images/solve-the-cube/result1.png",
+      "../../public/images/solve-the-cube/result2.png"
+    ]
+  },
+  {
+    "name": "Wereldwinkel",
+    "type": "Redesign",
+    "slug": "/projecten/wereldwinkel",
+    "jaar": 2022,
+    "tools": ["Figma", "HTML", "CSS"],
+    "beschrijving": "Om meer te leren over het maken van gebruiksvriendelijke websites heb ik de website van Wereldwinkel Vries verbeterd. Zo heb ik geleerd over de heuristieken van Nielsen, verschillende best practices en observatiemethodes.",
+    "uitdagingen": [
+      "De vormgeving van een website gebruikersvriendelijk maken",
+      "Voor het eerst met Figma werken en het design later omzetten in code"
+    ],
+    "hoofdfoto": "../../public/images/wereldwinkel/main.png",
+    "procesfotos": [
+      "../../public/images/wereldwinkel/process1.png",
+      "../../public/images/wereldwinkel/process2.png"
+    ],
+    "resultaatfotos": [
+      "../../public/images/wereldwinkel/result1.png",
+      "../../public/images/wereldwinkel/result2.png",
+      "../../public/images/wereldwinkel/result3.png"
+    ]
+  },
+  {
+    "name": "Penguin's Harbor",
+    "type": "2D Gamedesign",
+    "slug": "/projecten/penguins-harbor",
+    "jaar": 2023,
+    "tools": ["Lua", "LÖVE", "Tiled", "Aseprite"],
+    "beschrijving": "Ik vind het altijd leuk om nieuwe dingen uit te proberen, zo ook game development. Hier zie je een game prototype van een ontspannende game waarbij je als visserman rondvaart en vissen vangt. Door deze te verkopen kan je nieuwe boten kopen, en meer regio’s ontgrendelen. Ooit zou ik deze nog verder willen uitwerken wanneer ik bekender ben met de best practices en eventueel een game engine.",
+    "uitdagingen": [
+      "Een haalbaar doel stellen voor een prototype en gemotiveerd blijven ",
+      "De code, assets en het concept lerende wijs samen laten komen"
+    ],
+    "hoofdfoto": "../../public/images/penguins-harbor/main.png",
+    "procesfotos": [
+      "../../public/images/penguins-harbor/process1.png",
+      "../../public/images/penguins-harbor/process2.png"
+    ],
+    "resultaatfotos": [
+      "../../public/images/penguins-harbor/result1.png",
+      "../../public/images/penguins-harbor/result2.png",
+      "../../public/images/penguins-harbor/result3.png",
+      "../../public/images/penguins-harbor/result4.png"
+    ]
+  }
 ]
