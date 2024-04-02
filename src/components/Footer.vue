@@ -29,9 +29,10 @@ import GitHub from './icons/IconGitHub.vue'
             </div>
         </div>
         <div class="column">
-            <a href="">Home</a>
-            <a href="">Projecten</a>
-            <a href="">CV</a>
+            <RouterLink class="active" to="/">Home</RouterLink>
+            <RouterLink to="/projecten">Projecten</RouterLink>
+            <RouterLink to="/over-mij">Over mij</RouterLink>
+            <RouterLink to="/resume">CV</RouterLink>
         </div>
     </section>
 </template>
@@ -42,14 +43,17 @@ import GitHub from './icons/IconGitHub.vue'
     flex-direction: row;
     align-items: center;
 }
+
 #footer div {
     width: 50%;
 }
+
 #footer .column {
     display: flex;
     flex-direction: column;
     gap: 10px;
 }
+
 .icons {
     display: flex;
     flex-direction: row;
