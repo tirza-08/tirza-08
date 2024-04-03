@@ -22,4 +22,9 @@ import Star from './icons/IconStar.vue'
     align-items: center;
     gap: 20px;
   }
+  @media (max-width: 800px) {
+    #welcome {
+      flex-wrap: wrap;
+    }
+  }
 </style>

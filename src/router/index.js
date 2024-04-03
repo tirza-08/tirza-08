@@ -18,7 +18,7 @@ const router = createRouter({
     },
     {
       path: '/over-mij',
-      name: 'over mij',
+      name: 'over-mij',
       component: AboutView
     },
     {

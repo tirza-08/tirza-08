@@ -3,29 +3,33 @@
         <!-- <p>Project ID: {{ $route.params.projectId }}</p> -->
         <div class="project-header">
             <div>
-                <h2>{{ currentProject.jaar }}</h2>
+                <h3>{{ currentProject.jaar }}</h3>
                 <h1>{{ currentProject.type }}: {{ currentProject.name }}</h1>
             </div>
             <img :src="currentProject.hoofdfoto" alt="foto project">
         </div>
-        <div class="proces">
-            <img v-for="photo in currentProject.procesfotos" :src="photo" alt="foto proces">
-        </div>
-        <div class="description">
-            <p>{{ currentProject.beschrijving }}</p>
-            <ul>
-                <li v-for="uitdaging in currentProject.uitdagingen">{{ uitdaging }}</li>
-            </ul>
-        </div>
-        <div class="results">
-            <img v-for="photo in currentProject.resultaatfotos" :src="photo" alt="foto resultaat">
-        </div>
     </section>
+    <div class="project-body-background">
+        <section class="project-body">
+                <div class="proces">
+                    <img v-for="photo in currentProject.procesfotos" :src="photo" alt="foto proces">
+                </div>
+                <div class="description">
+                    <p>{{ currentProject.beschrijving }}</p>
+                    <ul>
+                        <li v-for="uitdaging in currentProject.uitdagingen">{{ uitdaging }}</li>
+                    </ul>
+                </div>
+                <div class="results">
+                    <img v-for="photo in currentProject.resultaatfotos" :src="photo" alt="foto resultaat">
+                </div>       
+        </section>
+    </div>
 </template>
 
 <style scoped>
 section {
-    min-height: var(--min-section-height);
+    min-height: 100px;
 }
 
 .project-header {
@@ -33,15 +37,20 @@ section {
     justify-content: space-between;
     align-items: center;
     gap: 50px;
-    padding: 45px 0;
+    padding-top: 15;
+}
+
+.project-body-background {
+    background: var(--gradient);
 }
 
 .project-header img {
-    width: 450px;
+    width: 400px;
 }
 
 h1 {
     font-size: 42px;
+    color: white;
 }
 
 .proces,
@@ -62,7 +71,7 @@ h1 {
 }
 
 @media (max-width: 800px) {
-/* 
+    /* 
     .proces,
     .results,
     .description {
@@ -70,12 +79,18 @@ h1 {
         max-width: 100%;
         align-items: center;
     } */
+    .project-header {
+        flex-direction: column;
+    }
+    h1 {
+        font-size: 32px;
+    }
 
     .proces img,
     .results img,
     .description p,
     .description ul {
-        max-width: 100%;
+        max-width: 70%;
     }
 }
 </style>
@@ -91,6 +106,15 @@ export default {
     },
     created() {
         this.setCurrentProject();
+    },
+    mounted() {
+        // Change the value of the --color-background variable to dark blue
+        document.documentElement.style.setProperty('--color-background', 'var(--dark-blue)');
+    },
+    beforeRouteLeave(to, from, next) {
+        // Reset the value of the --color-background variable to its default
+        document.documentElement.style.setProperty('--color-background', 'var(--gradient)');
+        next();
     },
     methods: {
         setCurrentProject() {

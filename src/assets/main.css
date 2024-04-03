@@ -4,12 +4,13 @@
 #app {
   width: 100%;
   margin: 0 auto;
-  padding: 2rem 0;
+  padding: 2rem 0 0;
   font-weight: normal;
 }
 
 img {
   width: 100%;
+  border-radius: 5px;
 }
 
 section {
@@ -40,24 +41,33 @@ a {
   }
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
   font-family: var(--font-family-header);
   font-style: normal;
   color: var(--dark-blue);
   font-weight: 700;
+  margin-bottom: 1rem;
 }
 
 h1 {
   font-size: 64px;
 }
 
-h2, h3 {
+h2,
+h3 {
   font-size: 32px;
   margin-bottom: 10px;
 }
 
 h3 {
   color: var(--white);
+}
+
+h4 {
+  font-weight: bolder;
+  color: var(--dark-blue);
 }
 
 h5 {
@@ -71,4 +81,24 @@ h5 {
 
 b {
   font-weight: bolder;
+}
+
+.star-header {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+  gap: 15px;
+  margin-left: -57px;
+}
+
+@media (max-width: 1000px) {
+  .star-header {
+    margin-left: 0;
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+}
+
+.blue-background {
+  background-color: var(--dark-blue);
 }

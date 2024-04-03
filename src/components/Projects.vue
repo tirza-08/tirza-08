@@ -6,9 +6,12 @@ import projects from '@/data/projects.json';
 
 
 export default {
+    components: {
+        LittleStar
+    },
     data() {
         return {
-            projects: projects
+            projects: projects,
         };
     }
 };
@@ -17,7 +20,10 @@ export default {
 <template>
     <div id="projects-background">
         <section id="projects">
-            <h3>Recente projecten</h3>
+            <div class="star-header" style="margin-bottom: 2rem;">
+                <h3>Recente projecten</h3>
+                <LittleStar />
+            </div>
             <div class="project-container">
                 <div v-for="project in projects" :key="project.id">
                     <RouterLink :to=project.slug>
@@ -42,20 +48,28 @@ export default {
 .project-container {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
-    gap: 30px;
+    justify-content: space-between;
+    gap: 4rem;
     width: 100%;
     color: white;
 }
 
 .project-container div {
-    width: 40%;
+    width: 45%;
+}
+
+
+@media (max-width: 750px) {
+    .project-container {
+        gap: 2rem;
+    }
 }
 
 @media (max-width: 650px) {
     .project-container {
         flex-direction: column;
     }
+
     .project-container div {
         width: 100%
     }
