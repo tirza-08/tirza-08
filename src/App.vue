@@ -25,13 +25,15 @@ export default {
         <RouterLink :class="{ 'active': isActiveRoute('projecten') || isActiveRoute('project') }"
           to="/projecten">Projecten</RouterLink>
         <RouterLink :class="{ 'active': isActiveRoute('over-mij')}" to="/over-mij">Over mij</RouterLink>
-        <RouterLink to="/resume">CV</RouterLink>
+        <a href="CV_TirzaMeinema.pdf" target="_blank">CV</a>
       </nav>
     </div>
   </header>
   <RouterView />
   <MyFooter />
 </template>
+
+
 
 <style scoped>
 header .wrapper {
