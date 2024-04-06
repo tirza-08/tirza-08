@@ -10,7 +10,7 @@ import TimeManagement from '../components/icons/IconTimeManagement.vue'
 <template>
   <section class="about">
     <div class="introduction">
-      <img id="foto-me" src="../../images/me.png" alt="">
+      <img id="foto-me" src="/images/me.png" alt="">
       <div class="introduction-text">
         <h1>Wie ben ik?</h1>
         <p>
