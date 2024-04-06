@@ -9,7 +9,7 @@ import Star from './icons/IconStar.vue'
     </div>
     <div>
       <h1>Hi, ik be<span class="italic">n Tirza</span></h1>
-      <p>Communication & Multimedia Design student aspiring to become a front-end developer.</p>
+      <p>Communication & Multimedia Design student met een interesse in front-end development.</p>
     </div>
   </section>
 </template>
