@@ -12,12 +12,19 @@ import TimeManagement from '../components/icons/IconTimeManagement.vue'
     <div class="introduction">
       <img id="foto-me" src="../../images/me.png" alt="">
       <div class="introduction-text">
-        <h1>Nice to meet you</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam pharetra urna id sapien ornare vestibulum.
-          Sed feugiat faucibus tortor vitae scelerisque. Cras aliquam vulputate nisl eget feugiat. Fusce a ex pulvinar,
-          aliquet diam eget, elementum urna. Donec cursus lacus quis sodales luctus. Morbi varius eros lacinia, ultrices
-          ipsum et, suscipit arcu. Pellentesque malesuada fermentum urna, et vehicula lacus dictum ac. Donec a libero
-          vitae mauris suscipit congue.
+        <h1>Wie ben ik?</h1>
+        <p>
+          Welkom op mijn website! Mijn naam is Tirza en ik ben een Communication & Multimedia Design student aan de
+          Hanze. Ik hou ervan om gebruiksvriendelijke websites of andere ervaringen te creëren voor andere mensen.
+        </p>
+        <br>
+        <p>
+          Naast mijn interesse in web development, ben ik ook geïnteresseerd in design of games. In mijn vrije tijd zie
+          je me vaak muziek luisteren, concerten bezoeken of lezen. Ook hou ik ervan om nieuwe dingen uit te proberen.
+        </p>
+        <br>
+        <p>
+          Als je vragen hebt of interesse hebt in samenwerken, aarzel dan niet om contact met me op te nemen via <a href="mailto:tirzameinema@outlook.com">tirzameinema@outlook.com</a>.
         </p>
         <div>
           <h4>My favorite tools</h4>
@@ -71,16 +78,16 @@ import TimeManagement from '../components/icons/IconTimeManagement.vue'
 
   </section>
   <div class="blue-background">
-    <section>
+    <section class="skill-section">
       <h3>Skills</h3>
       <div class="skills">
         <div>
           <Empathy />
-          <p>Empathy</p>
+          <p>Empathie</p>
         </div>
         <div>
           <Collaboration />
-          <p>Collaboration</p>
+          <p>Samenwerken</p>
         </div>
         <div>
           <ProblemSolving />
@@ -92,7 +99,7 @@ import TimeManagement from '../components/icons/IconTimeManagement.vue'
         </div>
         <div>
           <TimeManagement />
-          <p>Time Management</p>
+          <p>Idk!!!</p>
         </div>
       </div>
     </section>
@@ -111,12 +118,13 @@ h1 {
   justify-content: space-between;
   gap: 4rem;
 }
+
 .introduction-text h4 {
   margin-top: 2rem;
 }
 
 #foto-me {
-  max-width: 25%;
+  max-width: 35%;
   transform: scaleX(-1);
   /* padding: 2rem; */
 }
@@ -152,6 +160,7 @@ section {
 
 .skills svg {
   width: 60px;
+  margin: 1rem 0;
 }
 
 .skills div {
@@ -159,6 +168,9 @@ section {
   flex-direction: column;
   align-items: center;
   color: var(--white-soft);
+}
+.skill-section {
+  padding: 5rem 0 8rem;
 }
 
 @media (max-width: 850px) {

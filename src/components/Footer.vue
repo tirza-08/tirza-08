@@ -36,10 +36,10 @@ const scrollToTop = () => {
                     <a href="tel:+31623753535">
                         <Phone />
                     </a>
-                    <a href="">
+                    <a href="www.linkedin.com/in/tirza-meinema">
                         <LinkedIn />
                     </a>
-                    <a href="">
+                    <a href="https://github.com/tirza-08">
                         <GitHub />
                     </a>
                 </div>
