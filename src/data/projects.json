@@ -12,9 +12,26 @@
       "Design onderbouwen op basis van gebruikersonderzoek"
     ],
     "hoofdfoto": "../../images/bb-molenstreek/main.png",
-    "procesfotos": [
-      "../../images/bb-molenstreek/process1.png"
+    "procesfotos": ["../../images/bb-molenstreek/process1.png"],
+    "resultaatfotos": [
+      "../../images/bb-molenstreek/result1.png",
+      "../../images/bb-molenstreek/result2.png",
+      "../../images/bb-molenstreek/result3.png"
+    ]
+  },
+  {
+    "name": "Deltarune Character Index",
+    "type": "Webapplicatie",
+    "id": "deltarune-character-index",
+    "slug": "/projecten/deltarune-character-index",
+    "jaar": 2024,
+    "tools": ["React", "HTML", "CSS", "JavaScript"],
+    "beschrijving": "test",
+    "uitdagingen": [
+      "Leren van React"
     ],
+    "hoofdfoto": "../../images/bb-molenstreek/main.png",
+    "procesfotos": ["../../images/bb-molenstreek/process1.png"],
     "resultaatfotos": [
       "../../images/bb-molenstreek/result1.png",
       "../../images/bb-molenstreek/result2.png",
