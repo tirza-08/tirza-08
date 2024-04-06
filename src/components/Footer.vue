@@ -106,5 +106,10 @@ button {
     width: fit-content;
     border-radius: 50px;
     font-size: 16px;
+    transition: color 0.5s ease-in-out;
+
+}
+button:hover {
+    background-color: #f08913;
 }
 </style>

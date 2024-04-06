@@ -32,7 +32,7 @@ export default {
                             <div class="overlay">
                                 <h2 class="text">Ontdek meer &rarr;</h2>
                             </div>
-                            <img :src="project.hoofdfoto" alt="foto project">
+                            <img :src="`/tirza-08/${project.hoofdfoto}`" alt="foto project">
                         </RouterLink>
                     </div>
                     <p><b>{{ project.type }}</b> - {{ project.name }}</p>

@@ -10,19 +10,19 @@
                     <li v-for="uitdaging in currentProject.uitdagingen">{{ uitdaging }}</li>
                 </ul>
             </div>
-            <img :src="currentProject.hoofdfoto" alt="foto project">
+            <img :src="`/tirza-08/${currentProject.hoofdfoto}`" alt="foto project">
         </div>
     </section>
     <div class="project-body-background">
         <section class="project-body">
             <div class="proces">
-                <img v-for="photo in currentProject.procesfotos" :src="photo" alt="foto proces">
+                <img v-for="photo in currentProject.procesfotos" :src="`/tirza-08/${photo}`" alt="foto proces">
             </div>
             <div class="description">
                 <p>{{ currentProject.beschrijving }}</p>
             </div>
             <div class="results">
-                <img v-for="photo in currentProject.resultaatfotos" :src="photo" alt="foto resultaat">
+                <img v-for="photo in currentProject.resultaatfotos" :src="`/tirza-08/${photo}`" alt="foto resultaat">
             </div>
         </section>
     </div>

@@ -91,15 +91,15 @@ import TimeManagement from '../components/icons/IconTimeManagement.vue'
         </div>
         <div>
           <ProblemSolving />
-          <p>Problem Solving</p>
+          <p>Problem solving</p>
         </div>
         <div>
           <DesignThinking />
-          <p>Design Thinking</p>
+          <p>Design thinking</p>
         </div>
         <div>
           <TimeManagement />
-          <p>Idk!!!</p>
+          <p>Project management</p>
         </div>
       </div>
     </section>
