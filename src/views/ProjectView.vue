@@ -5,24 +5,25 @@
             <div>
                 <h3>{{ currentProject.jaar }}</h3>
                 <h1>{{ currentProject.type }}: {{ currentProject.name }}</h1>
+                <!-- <h4 style="color: var(--white-soft)">Uitdagingen</h4> -->
+                <ul>
+                    <li v-for="uitdaging in currentProject.uitdagingen">{{ uitdaging }}</li>
+                </ul>
             </div>
             <img :src="currentProject.hoofdfoto" alt="foto project">
         </div>
     </section>
     <div class="project-body-background">
         <section class="project-body">
-                <div class="proces">
-                    <img v-for="photo in currentProject.procesfotos" :src="photo" alt="foto proces">
-                </div>
-                <div class="description">
-                    <p>{{ currentProject.beschrijving }}</p>
-                    <ul>
-                        <li v-for="uitdaging in currentProject.uitdagingen">{{ uitdaging }}</li>
-                    </ul>
-                </div>
-                <div class="results">
-                    <img v-for="photo in currentProject.resultaatfotos" :src="photo" alt="foto resultaat">
-                </div>       
+            <div class="proces">
+                <img v-for="photo in currentProject.procesfotos" :src="photo" alt="foto proces">
+            </div>
+            <div class="description">
+                <p>{{ currentProject.beschrijving }}</p>
+            </div>
+            <div class="results">
+                <img v-for="photo in currentProject.resultaatfotos" :src="photo" alt="foto resultaat">
+            </div>
         </section>
     </div>
 </template>
@@ -38,10 +39,17 @@ section {
     align-items: center;
     gap: 50px;
     padding-top: 15;
+    color: var(--white-soft);
 }
 
 .project-body-background {
     background: var(--gradient);
+}
+
+.project-body {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
 }
 
 .project-header img {
@@ -54,23 +62,25 @@ h1 {
 }
 
 .proces,
-.results,
-.description {
+.results {
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
     justify-content: space-around;
-    padding: 45px 0;
+    padding: 25px 0;
 }
 
 .proces img,
 .results img,
-.description p,
 .description ul {
-    max-width: 40%;
+    max-width: 45%;
 }
 
+/* 
+.description
+ */
 @media (max-width: 800px) {
+
     /* 
     .proces,
     .results,
@@ -82,6 +92,7 @@ h1 {
     .project-header {
         flex-direction: column;
     }
+
     h1 {
         font-size: 32px;
     }

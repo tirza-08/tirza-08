@@ -12,11 +12,12 @@
       "Design onderbouwen op basis van gebruikersonderzoek"
     ],
     "hoofdfoto": "../../images/bb-molenstreek/main.png",
-    "procesfotos": ["../../images/bb-molenstreek/process1.png"],
+    "procesfotos": ["../../images/bb-molenstreek/process1.png", "../../images/bb-molenstreek/process2.png"],
     "resultaatfotos": [
       "../../images/bb-molenstreek/result1.png",
       "../../images/bb-molenstreek/result2.png",
-      "../../images/bb-molenstreek/result3.png"
+      "../../images/bb-molenstreek/result3.png",
+      "../../images/bb-molenstreek/result4.png"
     ]
   },
   {
@@ -25,17 +26,16 @@
     "id": "deltarune-character-index",
     "slug": "/projecten/deltarune-character-index",
     "jaar": 2024,
-    "tools": ["React", "HTML", "CSS", "JavaScript"],
-    "beschrijving": "test",
+    "tools": ["React", "HTML", "CSS", "JavaScript", "Git"],
+    "beschrijving": "Samen met twee klasgenoten hadden we als idee om een character index te maken voor de game Deltarune (vergelijkbaar met die van Pokémon). Door te werken aan dit project heb ik geleerd met JSON bestanden te werken, arrays in JavasScript, de basis van React en samen coderen met behulp van GitHub. ",
     "uitdagingen": [
-      "Leren van React"
+      "Het toepassen van veel nieuwe tools tegelijkertijd, en een goede taakverdeling maken", "Meerdere filters toepassen op JSON bestanden en deze laten zien aan de gebruiker"
     ],
-    "hoofdfoto": "../../images/bb-molenstreek/main.png",
-    "procesfotos": ["../../images/bb-molenstreek/process1.png"],
+    "hoofdfoto": "../../images/deltarune-character-index/main.png",
+    "procesfotos": ["../../images/deltarune-character-index/process1.png", "../../images/deltarune-character-index/process2.png"],
     "resultaatfotos": [
-      "../../images/bb-molenstreek/result1.png",
-      "../../images/bb-molenstreek/result2.png",
-      "../../images/bb-molenstreek/result3.png"
+      "../../images/deltarune-character-index/result1.png",
+      "../../images/deltarune-character-index/result2.png"
     ]
   },
   {
@@ -106,7 +106,34 @@
     ],
     "resultaatfotos": [
       "../../images/solve-the-cube/result1.png",
-      "../../images/solve-the-cube/result2.png"
+      "../../images/solve-the-cube/result2.png",
+      "../../images/solve-the-cube/result3.png"
+    ]
+  },
+  {
+    "name": "Penguin's Harbor",
+    "type": "2D Gamedesign",
+    "id": "penguins-harbor",
+    "slug": "/projecten/penguins-harbor",
+    "jaar": 2023,
+    "tools": ["Lua", "LÖVE", "Tiled", "Aseprite"],
+    "beschrijving": "Ik vind het altijd leuk om nieuwe dingen uit te proberen, zo ook game development. Hier zie je een game prototype van een ontspannende game waarbij je als visserman rondvaart en vissen vangt. Door deze te verkopen kan je nieuwe boten kopen, en meer regio’s ontgrendelen. Ooit zou ik deze nog verder willen uitwerken wanneer ik bekender ben met de best practices en eventueel een game engine.",
+    "uitdagingen": [
+      "Een haalbaar doel stellen voor een prototype en gemotiveerd blijven ",
+      "De code, assets en het concept lerende wijs samen laten komen"
+    ],
+    "hoofdfoto": "../../images/penguins-harbor/main.png",
+    "procesfotos": [
+      "../../images/penguins-harbor/process1.png",
+      "../../images/penguins-harbor/process2.png",
+      "../../images/penguins-harbor/process3.png",
+      "../../images/penguins-harbor/process4.png"
+    ],
+    "resultaatfotos": [
+      "../../images/penguins-harbor/result1.png",
+      "../../images/penguins-harbor/result2.png",
+      "../../images/penguins-harbor/result3.png",
+      "../../images/penguins-harbor/result4.png"
     ]
   },
   {
@@ -129,31 +156,8 @@
     "resultaatfotos": [
       "../../images/wereldwinkel/result1.png",
       "../../images/wereldwinkel/result2.png",
-      "../../images/wereldwinkel/result3.png"
-    ]
-  },
-  {
-    "name": "Penguin's Harbor",
-    "type": "2D Gamedesign",
-    "id": "penguins-harbor",
-    "slug": "/projecten/penguins-harbor",
-    "jaar": 2023,
-    "tools": ["Lua", "LÖVE", "Tiled", "Aseprite"],
-    "beschrijving": "Ik vind het altijd leuk om nieuwe dingen uit te proberen, zo ook game development. Hier zie je een game prototype van een ontspannende game waarbij je als visserman rondvaart en vissen vangt. Door deze te verkopen kan je nieuwe boten kopen, en meer regio’s ontgrendelen. Ooit zou ik deze nog verder willen uitwerken wanneer ik bekender ben met de best practices en eventueel een game engine.",
-    "uitdagingen": [
-      "Een haalbaar doel stellen voor een prototype en gemotiveerd blijven ",
-      "De code, assets en het concept lerende wijs samen laten komen"
-    ],
-    "hoofdfoto": "../../images/penguins-harbor/main.png",
-    "procesfotos": [
-      "../../images/penguins-harbor/process1.png",
-      "../../images/penguins-harbor/process2.png"
-    ],
-    "resultaatfotos": [
-      "../../images/penguins-harbor/result1.png",
-      "../../images/penguins-harbor/result2.png",
-      "../../images/penguins-harbor/result3.png",
-      "../../images/penguins-harbor/result4.png"
+      "../../images/wereldwinkel/result3.png",
+      "../../images/wereldwinkel/result4.png"
     ]
   }
 ]

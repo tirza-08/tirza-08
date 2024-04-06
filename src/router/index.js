@@ -26,6 +26,12 @@ const router = createRouter({
       name: 'project',
       component: ProjectView,
     },
+    {
+      path: '/resume',
+      redirect: to => {
+        return { path: to.path };
+      }
+    }
   ],
   scrollBehavior (to, from, savedPosition) {
     console.log(to);

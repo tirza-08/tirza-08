@@ -33,8 +33,6 @@ export default {
   <MyFooter />
 </template>
 
-
-
 <style scoped>
 header .wrapper {
   width: 100%;
