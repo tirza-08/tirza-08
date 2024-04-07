@@ -61,6 +61,8 @@ export default {
     border-radius: 5px;
     opacity: 0;
     transition: opacity 0.3s ease;
+    margin: 0;
+    padding: 0; 
 }
 .overlay h2 {
     padding: 0;

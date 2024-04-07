@@ -20,7 +20,15 @@
             </div>
             <div class="description">
                 <p>{{ currentProject.beschrijving }}</p>
+                <br>
+                <div>
+                    <h4 style="padding-bottom: 1rem;">Tools</h4>
+                    <div class="tool-container">
+                        <div class="tool" v-for="tool in currentProject.tools">{{ tool }}</div>
+                    </div>
+                </div>
             </div>
+
             <div class="results">
                 <img v-for="photo in currentProject.resultaatfotos" :src="`/tirza-08/${photo}`" alt="foto resultaat">
             </div>
@@ -38,7 +46,6 @@ section {
     justify-content: space-between;
     align-items: center;
     gap: 50px;
-    padding-top: 15;
     color: var(--white-soft);
 }
 
@@ -49,7 +56,8 @@ section {
 .project-body {
     display: flex;
     flex-direction: column;
-    gap: 50px;
+    gap: 2.5rem;
+    padding: 2rem 2rem;
 }
 
 .project-header img {
@@ -59,6 +67,21 @@ section {
 h1 {
     font-size: 42px;
     color: white;
+}
+
+.tool-container {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.tool {
+    background-color: var(--yellow);
+    padding: 13px 18px;
+    border-radius: 50px;
+    min-width: 7rem;
+    text-align: center;
+    color: var(--black);
 }
 
 .proces,
@@ -76,19 +99,7 @@ h1 {
     max-width: 45%;
 }
 
-/* 
-.description
- */
 @media (max-width: 800px) {
-
-    /* 
-    .proces,
-    .results,
-    .description {
-        flex-direction: column;
-        max-width: 100%;
-        align-items: center;
-    } */
     .project-header {
         flex-direction: column;
     }

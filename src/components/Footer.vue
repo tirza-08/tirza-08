@@ -46,7 +46,7 @@ const scrollToTop = () => {
             </div>
             <div class="column">
                 <button @click="scrollToTop">
-                    <h4>Go back up &uarr;</h4>
+                    <h4>Naar boven &uarr;</h4>
                 </button>
                 <RouterLink class="active" to="/">Home</RouterLink>
                 <RouterLink to="/projecten">Projecten</RouterLink>

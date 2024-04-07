@@ -15,19 +15,19 @@ import TimeManagement from '../components/icons/IconTimeManagement.vue'
         <h1>Wie ben ik?</h1>
         <p>
           Welkom op mijn website! Mijn naam is Tirza en ik ben een Communication & Multimedia Design student aan de
-          Hanze. Ik hou ervan om gebruiksvriendelijke websites of andere ervaringen te creëren voor andere mensen.
+          Hanze. Ik hou ervan om gebruiksvriendelijke websites of andere ervaringen te creëren voor anderen.
         </p>
         <br>
         <p>
           Naast mijn interesse in web development, ben ik ook geïnteresseerd in design of games. In mijn vrije tijd zie
-          je me vaak muziek luisteren, concerten bezoeken of lezen. Ook hou ik ervan om nieuwe dingen uit te proberen.
+          je me vaak muziek luisteren, concerten bezoeken of thuis op de bank te lezen.
         </p>
         <br>
         <p>
-          Als je vragen hebt of interesse hebt in samenwerken, aarzel dan niet om contact met me op te nemen via <a href="mailto:tirzameinema@outlook.com">tirzameinema@outlook.com</a>.
+          Als je contact met me wilt opnemen, kan dat altijd via <a href="mailto:tirzameinema@outlook.com">tirzameinema@outlook.com</a>.
         </p>
         <div>
-          <h4>My favorite tools</h4>
+          <h4>Mijn favoriete tools</h4>
           <div class="tool-list">
             <div class="column">
               <div class="item">
@@ -170,12 +170,22 @@ section {
   color: var(--white-soft);
 }
 .skill-section {
-  padding: 5rem 0 8rem;
+  padding-top: 5rem;
+  padding-bottom: 8rem;
+}
+
+@media (max-width: 500px) {
+  .tool-list {
+    flex-wrap: wrap;
+  }
 }
 
 @media (max-width: 850px) {
   .introduction {
     flex-direction: column;
+  }
+  .introduction-text {
+    width: 100%;
   }
 
   #foto-me {
